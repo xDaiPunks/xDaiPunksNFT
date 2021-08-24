@@ -234,8 +234,9 @@ contract Punks is IERC721 {
 
   address payable internal deployer;
   address payable internal developer;
+  
   bool public publicSale = false;
-  uint256 private mintPrice = 10 ether;
+  uint256 private mintPrice = 12e18;
   uint256 public saleStartTime;
 
   //// Random index assignment
@@ -666,7 +667,7 @@ contract Punks is IERC721 {
   {
     return
       string(
-        abi.encodePacked('https://polypunks.app/punks/', toString(_tokenId))
+        abi.encodePacked('https://xdaipunks.com/static/media/punks/', toString(_tokenId))
       );
   }
 

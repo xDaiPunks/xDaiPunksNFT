@@ -1,0 +1,27 @@
+{
+  "name": "xdaipunks",
+  "version": "1.0.0",
+  "description": "punks for xdai",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test ./test/usdm.js"
+  },
+  "author": "xDaiPunks",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/debug-utils": "^5.1.10",
+    "@truffle/hdwallet-provider": "^1.4.3",
+    "chai": "^4.3.4",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "*",
+    "solc": "^0.7.6",
+    "truffle": "^5.4.6",
+    "truffle-assertions": "^0.9.2",
+    "truffle-flattener": "^1.5.0"
+  }
+}

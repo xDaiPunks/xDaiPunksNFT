@@ -234,7 +234,7 @@ contract Punks is IERC721 {
 
   address payable internal deployer;
   address payable internal developer;
-  
+
   bool public publicSale = false;
   uint256 private mintPrice = 12e18;
   uint256 public saleStartTime;
@@ -599,15 +599,19 @@ contract Punks is IERC721 {
     return ownerToIds[_owner][_index];
   }
 
-  function tokensOfOwner(address _owner)
+  /**
+   * @dev Gets all punks for a given address. This call is fairly expensive.
+   * It should never be called by an external contract
+   */
+  function tokensOfAddress(address _owner)
     external
     view
     returns (uint256[] memory)
   {
-    uint256 idCount = ownerToIds[_owner].length;
+    uint256 iCount = ownerToIds[_owner].length;
 
-    uint256[] memory memoryArray = new uint256[](idCount);
-    for (uint256 i = 0; i < idCount; i++) {
+    uint256[] memory memoryArray = new uint256[](iCount);
+    for (uint256 i = 0; i < iCount; i++) {
       memoryArray[i] = ownerToIds[_owner][i];
     }
     return memoryArray;
@@ -667,7 +671,10 @@ contract Punks is IERC721 {
   {
     return
       string(
-        abi.encodePacked('https://xdaipunks.com/static/media/punks/', toString(_tokenId))
+        abi.encodePacked(
+          'https://xdaipunks.com/static/media/punks/',
+          toString(_tokenId)
+        )
       );
   }
 

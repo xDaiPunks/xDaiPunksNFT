@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Punks/Punks.sol": {
-			"keccak256": "0x38ee35828f5f2ac133887caefc168dfb48727e5b499693ef9d155f998c22476f",
+			"keccak256": "0x4ef3497ce8ac8b44160a494e1d8daa3a5a0d67cd8b3f53553863b73763cc5f52",
 			"license": "GPL-3.0-or-later",
 			"urls": [
-				"bzz-raw://513a8a370f87b157f4c747879229a53990865597bff7cffe9e7572ff6c6e53a6",
-				"dweb:/ipfs/QmbLUcye7kNfmZRgHSQWmB1gYyQw4ZKFwx1rUdiPtX1vxV"
+				"bzz-raw://676c524d9912eefa20deaaeab50b94f25db920ec75ac6de9b66b5ac2b46d886e",
+				"dweb:/ipfs/QmWkphmnHB8yqrGGXQRkZJRQuwysggDqYmYmUDpQQFQq5i"
 			]
 		}
 	},

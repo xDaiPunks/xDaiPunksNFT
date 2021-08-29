@@ -672,7 +672,7 @@ contract Punks is IERC721 {
     return
       string(
         abi.encodePacked(
-          'https://xdaipunks.com/static/media/punks/',
+          'https://xdaipunks.com/api/punk/',
           toString(_tokenId)
         )
       );

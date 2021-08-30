@@ -856,25 +856,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
-				"name": "tokensOfAddress",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
@@ -973,9 +954,6 @@
 					"returns": {
 						"_0": "_tokenId URI of _tokenId."
 					}
-				},
-				"tokensOfAddress(address)": {
-					"details": "Gets all punks for a given address. This call is fairly expensive. It should never be called by an external contract"
 				}
 			},
 			"version": 1
@@ -1012,11 +990,11 @@
 	},
 	"sources": {
 		"contracts/Punks/Punks.sol": {
-			"keccak256": "0x4ef3497ce8ac8b44160a494e1d8daa3a5a0d67cd8b3f53553863b73763cc5f52",
+			"keccak256": "0x3d6b29c4eacb27385c6f5d78904b51edf5923e2b796a558511e8d9a4c662aa93",
 			"license": "GPL-3.0-or-later",
 			"urls": [
-				"bzz-raw://676c524d9912eefa20deaaeab50b94f25db920ec75ac6de9b66b5ac2b46d886e",
-				"dweb:/ipfs/QmWkphmnHB8yqrGGXQRkZJRQuwysggDqYmYmUDpQQFQq5i"
+				"bzz-raw://027593ddd345536018a24010328f5153699511a889f5feec22635e40ff5d6c5d",
+				"dweb:/ipfs/QmbSUa9YA3nZuCgzhVzy8ygCY82eJCCa7Afag2JiGmomAr"
 			]
 		}
 	},

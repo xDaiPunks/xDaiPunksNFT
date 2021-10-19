@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Punks/Punks.sol": "IERC165"
+			"Punks/contracts/Punks/Punks.sol": "IERC165"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Punks/Punks.sol": {
+		"Punks/contracts/Punks/Punks.sol": {
 			"keccak256": "0x3d6b29c4eacb27385c6f5d78904b51edf5923e2b796a558511e8d9a4c662aa93",
 			"license": "GPL-3.0-or-later",
 			"urls": [
